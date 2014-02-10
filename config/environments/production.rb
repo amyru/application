@@ -80,5 +80,5 @@ MyApp::Application.configure do
 
   # Required for Heroku
   # Note to set this to your actual host
-  config.action_mailer.default_ulr_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'amyapp-pinteresting.herokuapp.com' }
 end
