@@ -77,4 +77,8 @@ MyApp::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Required for Heroku
+  # Note to set this to your actual host
+  config.action_mailer.default_ulr_options = { :host => 'localhost:3000' }
 end
