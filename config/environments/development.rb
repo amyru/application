@@ -28,7 +28,5 @@ MyApp::Application.configure do
   config.assets.debug = true
 
   # Required for Heroku
-  config.after_initialize do
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-end
+  config.action_mailer.default_url_options = { :host => 'amyapp-pinteresting.herokuapp.com' }
 end
